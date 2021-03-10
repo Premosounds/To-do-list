@@ -1,0 +1,107 @@
+html,
+body {
+    height: 100vh;
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    background-image: url("https://www.google.com/url?sa=i&url=https%3A%2F%2Fgifer.com%2Fen%2FQDyD&psig=AOvVaw0Bo1GpOcFTOxF0RcjQ-UxA&ust=1615011071613000&source=images&cd=vfe&ved=0CAIQjRxqFwoTCKj7_pu_mO8CFQAAAAAdAAAAABAI");
+    background-color: #942626;
+    height: 500px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.container-fluid {
+    height: 100%;
+    padding-right: 0;
+}
+
+.content {
+    display: flex;
+    flex-direction: row;
+   
+}
+
+h3 {
+    color: aqua;
+    text-align: center;
+    margin-bottom: 15px;
+    font-family: "Segoe UI", 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+section {
+    height: 100%;
+}
+
+#list {
+    flex: 2;
+}
+#list h3 {
+    color: whitesmoke;
+    margin-top: 10px;
+    font-size: 30px;
+}
+
+#capture {
+    flex: 1;
+    background-color: antiquewhite;
+    padding: 20px;
+    box-shadow: -1px 0 10px rgb(66, 30, 30);
+   
+}
+    
+.control {
+    display: block;
+    margin-bottom: 10px;
+    border-radius: 6px;
+    padding: 10px 5px;
+}
+
+.control label {
+    font-size: 14px;
+    color: gray;
+}
+
+.control input {
+    font-size: 18px;
+}
+
+#iImportant {
+    font-size: 30px;
+}
+
+#iImportant.fas {
+    color: red;
+}
+
+h1 {
+    text-align: center;
+}
+
+#list {
+    flex: 2;
+    
+}
+#pic {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+}
+#tasks-list {
+    flex: 1;
+    background-color: rgb(58, 228, 205);
+    padding: 15px;
+    margin-right: 20px;
+    margin-top: 10px;
+    box-shadow: 1px 0 10px rgb(66, 30, 30);
+    border-radius: 20px;
+    border-color: black;
+    border-style: solid;
+    border: 40px;
+   
+}
